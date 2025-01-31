@@ -1,4 +1,5 @@
 # Import the random library to use for the dice later
+import time
 import random
 
 # Hero's Attack Functions
@@ -81,6 +82,13 @@ loot_options = ["Health Potion", "Poison Potion", "Secret Note", "Leather Boots"
 good_loot_options = ["Health Potion", "Leather Boots"]
 bad_loot_options = ["Poison Potion"]
 
+
+#LAB -4 01 Defining the monster power:
+monster_power = {
+    "Fire Magic":2,
+    "Freezing time":4,
+    "Super Hearing":6,
+}
 # Define the number of stars awarded to the Player
 num_stars = 0
 
